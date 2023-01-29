@@ -1,0 +1,471 @@
+<Expl></Expl>
+ 
+Book
+ 
+{ book }
+ 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+ 
+  <div className="book">
+        <a href="">
+            <figure className="book__img--wrapper">
+                <img className="book__img" 
+                      src={book.url}>
+                </img>
+            </figure>
+        </a>
+        <div className="book__title">
+            <a href="/" className="book__title--link">
+                {book.title}
+            </a>
+        </div>
+        <div className="book__ratings">
+            {
+                new Array(Math.floor(book.rating)).fill(0).map((_, index) => <FontAwesomeIcon icon="star" key={ index }/>)
+            }
+            {
+                !Number.isInteger(book.rating) && <FontAwesomeIcon icon="star-half--alt" key={ index } />
+            }
+        </div>
+        <div>
+     
+         
+        
+                
+        </div>
+    </div>
+ 
+ '' : 
+ 
+import Book from ""
+ 
+ompontenst /UI/Book";
+
+ 
+   <div className="book__price--normal">
+ 
+<div>
+
+    
+    </div>
+ 
+<div className="book">
+        <a href="">
+            <figure className="book__img--wrapper">
+                <img className="book__img" 
+                      src={book.url}>
+                </img>
+            </figure>
+        </a>
+        <div className="book__title">
+            <a href="/" className="book__title--link">
+                {book.title}
+            </a>
+        </div>
+        <div className="book__ratings">
+            {
+                new Array(5).fill(0).map((_, index) => <FontAwesomeIcon icon="star" key={index}/>)
+            }
+        </div>
+        <div className="book__price--normal">
+         
+        
+                
+        </div>
+    </div>
+
+ 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+ 
+RTCEncodedVideoFrame
+ 
+lement
+ 
+ {book.salePrice ? (
+                <>
+                  <span className="book__price--normal">
+                      ${book.orginalPrice.toFixed(2)}
+                  </span>
+                  ${book.salePrice.toFixed(2)}
+                </>
+            ) : (
+                <>${book.orginalPrice.toFixed(2)}</>
+
+            ) }
+ 
+import { book } from "../data";
+ 
+import Price from 
+ 
+{book.salePrice ? (
+                <>
+                  <span className="book__price--normal">
+                      ${book.orginalPrice.toFixed(2)}
+                  </span>
+                  ${book.salePrice.toFixed(2)}
+                </>
+            ) : (
+                <>${book.orginalPrice.toFixed(2)}</>
+
+            ) }
+          
+ 
+  {book.salePrice ? (
+                <>
+                  <span className="book__price--normal">
+                      ${book.orginalPrice.toFixed(2)}
+                  </span>
+                  ${book.salePrice.toFixed(2)}
+                </>
+            ) : (
+                <>${book.orginalPrice.toFixed(2)}</>
+
+            ) }
+ 
+  <>${book.orginalPrice.toFixed(2)}</>
+ 
+{book.salesPrice ?}
+ 
+ <span className="book__price--normal">
+                    ${book.orginalPrice.toFixed(2)}
+                </span>
+             
+ 
+     ${book.salePrice.toFixed(2)}
+                </>
+            ) : (
+                <>${book.salePrice.toFixed(2)}</>
+
+ 
+ <span className="book__price--normal">
+                    ${book.orginalPrice.toFixed(2)}
+                </span>
+ 
+{book.salesPrice ? (
+                <>
+                <span className="book__price--normal">
+                    ${book.orginalPrice.toFixed(2)}
+                </span>
+                  ${book.salePrice.toFixed(2)}
+                </>
+            ) : (
+                <>${book.salePrice.toFixed(2)}</>
+
+            )}
+ 
+<FontAwesomeIcon icon="star"/>
+            <FontAwesomeIcon icon="star"/>
+            <FontAwesomeIcon icon="star"/>
+            <FontAwesomeIcon icon="star"/>
+            <FontAwesomeIcon icon="star-half-alt"/>
+ 
+import  book from "./data";
+ 
+Book />
+ 
+ 
+ 
+></Books>
+ 
+import book from "../data/"
+ 
+
+
+        
+            
+
+ 
+book.SalesPrice}
+ 
+span className="book__price--normal">${book.orginalPrice}</span>
+ 
+book.rating === 5)
+ 
+ <div className="slice"></div>
+ 
+<Book />
+                    <Book />
+                    <Book />
+                    <Book />
+ 
+    
+
+
+
+
+
+
+ 
+  faPersonWalkingDashedLineArrowRight
+ 
+€10.00
+ 
+€15.00
+ 
+Atomic Habits
+ 
+ clas
+ 
+https://covers.openlibrary.org/b/id/8091016-L.jpg"
+ 
+ from '../data'
+
+ 
+import  Books  from "../data";
+ 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+ 
+</div>
+ 
+div className="books">
+ 
+<div className="books">
+                    <div className="book">
+                        <a href="">
+                            <figure className="book__img--wrapper">
+                                <img className="" src="https://covers.openlibrary.org/b/id/8091016-L.jpg"></img>
+                            </figure>
+                        </a>
+                        <div className="book__title">
+                            <a href="/" className="book__title--link">
+                                Atomic Habits
+                            </a>
+                        </div>
+                        <div className="book__ratings">
+                            <FontAwesomeIcon icon="star"/>
+                            <FontAwesomeIcon icon="star"/>
+                            <FontAwesomeIcon icon="star"/>
+                            <FontAwesomeIcon icon="star"/>
+                            <FontAwesomeIcon icon="star-half-alt"/>
+                        </div>
+                        <div className="book__price">
+                            <span className="book__price--normal">€15.00</span>
+                            €10.00
+
+                        </div>
+                    </div>
+                </div>
+ 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+ 
+Featured
+ 
+ <section id="Features">
+        <div className="container">
+            <div className="row">
+                <h2 className="section__title">
+                    Featured <span className="purple">Books</span>
+                </h2>
+                <div className="books">
+                    <div className="book">
+                        <a href="">
+                            <figure className="book__img--wrapper">
+                                <img className="" src="https://covers.openlibrary.org/b/id/8091016-L.jpg"></img>
+                            </figure>
+                        </a>
+                        <div className="book__title">
+                            <a href="/" className="book__title--link">
+                                Atomic Habits
+                            </a>
+                        </div>
+                        <div className="book__ratings">
+                            <FontAwesomeIcon icon="star"/>
+                            <FontAwesomeIcon icon="star"/>
+                            <FontAwesomeIcon icon="star"/>
+                            <FontAwesomeIcon icon="star"/>
+                            <FontAwesomeIcon icon="star-half-alt"/>
+                        </div>
+                        <div className="book__price">
+                            <span className="book__price--normal">€15.00</span>
+                            €10.00
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+className
+ 
+<Secction></Secction>
+ 
+<div>
+        Featured 
+    </div>
+ 
+<Featured />
+ 
+<section id="landing">
+        <header>
+            <div className="header__container">
+                <div className="header__description">
+                    <h1>
+                        Ireland's most awarded online library platfporm
+                    </h1>
+                    <h2>Find your dream book with <span className="purple">Library</span></h2>
+                    <a href="#features">
+                        <button className="btn">Browse books</button>
+                    </a>
+                </div>
+                <figure className="header__img--wrapper">
+                    <img src={UndrawBooks} alt="" />
+                </figure>
+            </div>
+        </header>
+    </section>
+ 
+import UndrawBooks from '../assets/Undraw_Books.svg';
+ 
+<p className="highlight__para">
+ 
+ <div className="highlight__img">
+ 
+title></title>
+ 
+</h3>
+ 
+  <div className="highlight">
+ 
+ <div className="highlight">
+                        <div className="highlight__img">
+                            <FontAwesomeIcon icon="book-open"/>
+                        </div>
+                        <h3>10,000+ Books</h3>
+                        <p className="highlight__para">Get access to your book you purchased instantly </p>
+                    </div>
+                    <div className="highlight">
+                        <div className="highlight__img">
+                            <FontAwesomeIcon icon="tags"/>
+                        </div>
+                        <h3>Affordable</h3>
+                        <p className="highlight__para">Get access to your book you purchased instantly </p>
+                    </div>
+ 
+asy and Quick
+ 
+<FontAwesomeIcon icon="bolt"/>
+ 
+Get access to your book you purchased instantly 
+ 
+<section id="Highlights">
+        <div className="container">
+            <div className="row">
+                <h2 className="section__title">
+                    Why choose <span className="purple">Library</span>
+                </h2>
+                <div className="highlight__wrapper">
+ 
+                <div className="highlight">
+                        <div className="highlight__img">
+                            <FontAwesomeIcon icon="book-open"/>
+                        </div>
+                        <h3>10,000+ Books</h3>
+                        <p className="highlight__para">Get access to your book you purchased instantly </p>
+                    </div>
+                    <div className="highlight">
+                        <div className="highlight__img">
+                            <FontAwesomeIcon icon="tags"/>
+                        </div>
+                        <h3>Affordable</h3>
+                        <p className="highlight__para">Get access to your book you purchased instantly </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+ 
+/FontAwesomeIcon>
+ 
+/FontAwesomeIcon>
+ 
+<img className="" ></img>
+ 
+import UndrawBooks from '../assets/Undraw_Books.svg';
+ 
+ <header>
+            <div className="header__container">
+                <div className="header__description">
+                    <h1>
+                        Ireland's most awarded online library platfporm
+                    </h1>
+                    <h2>Find your dream book with <span className="purple">Library</span></h2>
+                    <a href="#features">
+                        <button className="btn">Browse books</button>
+                    </a>
+                </div>
+                <figure className="header__img--wrapper">
+                    <img src={UndrawBooks} alt="" />
+                </figure>
+            </div>
+        </header>
+ 
+import { faArrowRightFromBracket } from "@fortawesome/free-solid-svg-icons";
+
+faArrowRightFromBracket
+ 
+import { faUpRightAndDownLeftFromCenter } from "@fortawesome/free-solid-svg-icons";
+
+faUpRightAndDownLeftFromCenter
+ 
+feSpecularLighting
+ 
+<Library></Library>
+ 
+Australia
+ 
+ <div className="App">
+      <Nav />
+    </div>
+ 
+Nav from "./compontenst /Nav";
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+ 
+<FontAwesomeIcon Icone="bars" />
+ 
+</FontAwesomeIcon>
+ 
+</button>
+ 
+/FontAwesomeIcon>
+ 
+</LibraryLogo>
+ 
+
+
+ 
+import { NavigationTimingPolyfillEntry } from "web-vitals";
+ 
+Fontawsome
+ 
+import './App.css';
+ 
+<header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+ 
