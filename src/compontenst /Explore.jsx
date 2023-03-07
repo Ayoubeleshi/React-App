@@ -7,8 +7,17 @@ const Explore = () => {
 
 
   return (
-    <section id="Explore">
-        <div>
+    <section id="id">
+        <div className="container">
+            <div className="row row__column">
+                <h2>
+                    Explore more <span className="purple">Books</span>
+                </h2>
+                <a href="/books">
+                    <button className="btn">Explore books</button>
+                </a>
+
+            </div>
 
         </div>
     </section>
